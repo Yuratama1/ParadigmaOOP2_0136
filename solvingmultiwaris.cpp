@@ -10,7 +10,7 @@ class orang{
         }
 };
 
-class pekerja : virtual public orang {
+class pekerja : public orang {
     public:
         pekerja(int pumur) :
             orang(pumur){
@@ -18,7 +18,7 @@ class pekerja : virtual public orang {
             }
 };
 
-class pelajar : virtual public orang {
+class pelajar : public orang {
     public:
         pelajar(int pumur) :
             orang(pumur){
