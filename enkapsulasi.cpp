@@ -5,10 +5,20 @@ class remotlampu{
     private:
         string saklarno[10];
     public:
-        void saklarno(int i, string value){
+        void setsaklarno(int i, string value){
             saklarno[1] = value;
         }
         string getsaklarno(int i){
             return saklarno[i];
         }
 };
+
+int main(){
+    remotlampu lampurumah;
+
+    lampurumah.setsaklarno(0, "Lampu Teras Rumah");
+    lampurumah.setsaklarno(1, "Lampu Ruang Tamu");
+    lampurumah.setsaklarno(2, "Lampu Kamar Tidur");
+    lampurumah.setsaklarno(3, "Lampu Dapur");
+
+}
