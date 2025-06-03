@@ -7,4 +7,5 @@ class seseorang{
         //virtual void pesan(){
         // cout<< "Pesan dari seseorang" << endl;
         //}
+        
 };
